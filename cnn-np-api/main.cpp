@@ -131,9 +131,8 @@ struct SoftMax {
         last_input_shape.resize(input.shape().size());
         std::copy(input.shape().begin(), input.shape().end(), last_input_shape.begin());
         xt::xarray<double> flattened_input = xt::flatten(input);
-        shape("input", input);
         last_input = flattened_input;
-        shape("last_input", last_input);
+       
         auto dot = 0.0;
         //xt::linalg::dot(input, weights); //- don't need blas for this!!!
         for(int i=0; i<flattened_input.shape(0); ++i ) {
@@ -260,22 +259,24 @@ void train() {
         { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
         { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
         { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }};
-    int label = 1;
-    auto out = softmax.forward(pool.forward(conv.forward(image)));
-    auto loss = -log(out[label]);
-    auto acc = xt::argmax(out)[0] == label ? 1 : 0;
-    
-    //1 if(np.argmax(out) == label) else 0
-    double lr = 0.005;
-    xt::xarray<double> gradient = xt::zeros<double>({10});
-    gradient(label) = -1./out(label);
-       
-       
-       //Backprop
-    std::cout << "loss " << loss << " acc " << acc << " " << gradient << std::endl;
-    xt::xarray<double> g1 = softmax.backprop(gradient, lr);
-    xt::xarray<double> g2 = pool.backprop(g1, lr);
-    conv.backprop(g2, lr);
+    for (int epoch=0;epoch<100;++epoch) {
+        int label = 1;
+        auto out = softmax.forward(pool.forward(conv.forward(image)));
+        auto loss = -log(out[label]);
+        auto acc = xt::argmax(out)[0] == label ? 1 : 0;
+        
+        //1 if(np.argmax(out) == label) else 0
+        double lr = 0.005;
+        xt::xarray<double> gradient = xt::zeros<double>({10});
+        gradient(label) = -1./out(label);
+        
+        
+        //Backprop
+        std::cout << "loss " << loss << " acc " << acc << " " << std::endl;
+        xt::xarray<double> g1 = softmax.backprop(gradient, lr);
+        xt::xarray<double> g2 = pool.backprop(g1, lr);
+        conv.backprop(g2, lr);
+    }
     
 }
 int main(int argc, const char * argv[]) {
