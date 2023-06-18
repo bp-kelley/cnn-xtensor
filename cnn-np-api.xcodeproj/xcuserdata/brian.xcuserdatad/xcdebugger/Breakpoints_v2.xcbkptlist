@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "323018F5-9EAC-4605-A562-C1D1AB3566C9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39DF4797-DDC9-473F-BAA4-8F5F3DF573EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "forward(input)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "000305CD-D54E-40D0-9859-697A67974A4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "forward(input)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3DB9084-8C28-42A7-9EED-FE7AF7C7A371"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "test()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B75EC9C-3C24-46BC-AC66-2B495605EEB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "train()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7768CD7D-45EA-45E2-B6D0-CCB71527EC10"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "train()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39418437-FE5B-47C9-8E03-631D38C3D5B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "Conv(num_filters)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC1EFCAE-2627-4694-9A85-B106CF0988B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/include/xtensor-blas/xlinalg.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "819"
+            endingLineNumber = "819"
+            landmarkName = "dot(xt, xo)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "DC1EFCAE-2627-4694-9A85-B106CF0988B6 - 285cb31dbcb3c9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "auto xt::linalg::dot&lt;xt::xview&lt;xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt;&amp;, xt::xall&lt;unsigned long&gt;, xt::xnewaxis&lt;unsigned long&gt; &gt;, xt::xview&lt;xt::xfunction&lt;xt::detail::multiplies, xt::xscalar&lt;double const&amp;&gt;, xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt; const&amp;&gt;&amp;, xt::xall&lt;unsigned long&gt;, xt::xnewaxis&lt;unsigned long&gt; &gt; &gt;(xt::xexpression&lt;xt::xview&lt;xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt;&amp;, xt::xall&lt;unsigned long&gt;, xt::xnewaxis&lt;unsigned long&gt; &gt; &gt; const&amp;, xt::xview&lt;xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt;&amp;, xt::xall&lt;unsigned long&gt;, xt::xnewaxis&lt;unsigned long&gt; &gt;&lt;xt::xview&lt;xt::xfunction&lt;xt::detail::multiplies, xt::xscalar&lt;double const&amp;&gt;, xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt; const&amp;&gt;&amp;, xt::xall&lt;unsigned long&gt;, xt::xnewaxis&lt;unsigned long&gt; &gt; &gt; const&amp;)"
+                  moduleName = "cnn-np-api"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/devel/cnn-np-api/cnn-np-api/include/xtensor-blas/xlinalg.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "2168">
+               </Location>
+               <Location
+                  uuid = "DC1EFCAE-2627-4694-9A85-B106CF0988B6 - f399428e7ff86d9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "auto xt::linalg::dot&lt;xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt;, xt::xfunction&lt;xt::detail::multiplies, xt::xscalar&lt;double const&amp;&gt;, xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt; const&amp;&gt; &gt;(xt::xexpression&lt;xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt; &gt; const&amp;, xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt;&lt;xt::xfunction&lt;xt::detail::multiplies, xt::xscalar&lt;double const&amp;&gt;, xt::xarray_container&lt;xt::uvector&lt;double, std::__1::allocator&lt;double&gt; &gt;, (xt::layout_type)1, xt::svector&lt;unsigned long, 4ul, std::__1::allocator&lt;unsigned long&gt;, true&gt;, xt::xtensor_expression_tag&gt; const&amp;&gt; &gt; const&amp;)"
+                  moduleName = "cnn-np-api"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/devel/cnn-np-api/cnn-np-api/include/xtensor-blas/xlinalg.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "2172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "780B080C-EB63-46BB-8453-1A34E4241075"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cnn-np-api/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "backprop(d_l_d_out, learn_rate)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
