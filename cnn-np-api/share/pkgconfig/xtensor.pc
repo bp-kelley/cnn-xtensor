@@ -1,7 +1,0 @@
-prefix=/Users/brian/devel/cnn-np-api/cnn-np-api
-includedir=${prefix}/include
-
-Name: xtensor
-Description: xtensor is a C++ library meant for numerical analysis with multi-dimensional array expressions.
-Version: 0.24.6
-Cflags: -I${includedir}
