@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D314D6192A4E4FFC00CC1491 /* test_conv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D314D6172A4E4FFC00CC1491 /* test_conv.cpp */; };
 		D330A73F2A23C818009A12D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D330A73E2A23C818009A12D2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		D314D6132A3F56CD00CC1491 /* cxxstd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cxxstd; sourceTree = "<group>"; };
 		D314D6142A3F56CD00CC1491 /* cxxblas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cxxblas; sourceTree = "<group>"; };
 		D314D6162A3F56DB00CC1491 /* external */ = {isa = PBXFileReference; lastKnownFileType = folder; path = external; sourceTree = "<group>"; };
+		D314D6172A4E4FFC00CC1491 /* test_conv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_conv.cpp; sourceTree = "<group>"; };
+		D314D61A2A4E507300CC1491 /* cnn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cnn.h; sourceTree = "<group>"; };
 		D330A73B2A23C818009A12D2 /* cnn-np-api */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cnn-np-api"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D330A73E2A23C818009A12D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +49,7 @@
 		D330A7322A23C818009A12D2 = {
 			isa = PBXGroup;
 			children = (
+				D314D6172A4E4FFC00CC1491 /* test_conv.cpp */,
 				D314D6162A3F56DB00CC1491 /* external */,
 				D314D6142A3F56CD00CC1491 /* cxxblas */,
 				D314D6122A3F56CD00CC1491 /* cxxlapack */,
@@ -68,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				D330A73E2A23C818009A12D2 /* main.cpp */,
+				D314D61A2A4E507300CC1491 /* cnn.h */,
 			);
 			path = "cnn-np-api";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D330A73F2A23C818009A12D2 /* main.cpp in Sources */,
+				D314D6192A4E4FFC00CC1491 /* test_conv.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
